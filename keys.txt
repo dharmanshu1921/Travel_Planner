@@ -1,0 +1,26 @@
+python3 -m venv planner
+#mac
+source planner/bin/activate
+#windows
+.\planner\Scripts\activate
+
+pip install crewai
+pip install 'crewai[tools]'
+pip install langchain-groq
+pip install streamlit
+pip install pysqlite3
+pip install watchdog
+
+contol+c 
+cmd+j
+
+python -m streamlit run TravelCrewApp.py
+GEMINI_API_KEY=
+
+GOOGLE=
+
+GROQ_API_KEY=
+
+SERPERDEV_TOOL=
+
+COHERE_API_KEY=
